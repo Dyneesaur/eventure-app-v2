@@ -13,7 +13,7 @@ import Firebase
 class EventSuccessViewController: UIViewController {
 
     var eventObject: addEvent!
-    
+    var imageName: String!
     
     override func viewDidLoad() {
         
@@ -42,6 +42,33 @@ class EventSuccessViewController: UIViewController {
         
         // create a url.
         let url = URL(string: urlStr)
+        
+        
+        DispatchQueue.global().async {
+            
+            self.imageName = NSUUID().uuidString
+            
+            let storageRef = FIRStorage.storage().reference().child("\(self.imageName!).png")
+            
+            if let uploadData = UIImagePNGRepresentation(self.eventObject.image) {
+                
+                storageRef.put(uploadData, metadata: nil, completion: { (metadata, error) in
+                    
+                    if error != nil {
+                        
+                    }
+                    else {
+                        return
+                    }
+                    
+                    
+                    
+                })
+                
+            }
+
+        
+        
         
         // run this code on a background thread.
         DispatchQueue.global().async {
@@ -74,7 +101,7 @@ class EventSuccessViewController: UIViewController {
                                         
                                         // add the event to the database.
                                         db.addEventTreeStructure(eventRoot: "Events",attendees: [], title:
-                                            self.eventObject.title, description: self.eventObject.description, avatar: "",Category: self.eventObject.category, chatChannel: 0, images: [], startDate: self.eventObject.datetime, longitude: longitude, latitude: latitude)
+                                            self.eventObject.title, description: self.eventObject.description, avatar: self.imageName,Category: self.eventObject.category, chatChannel: 0, images: [], startDate: self.eventObject.datetime, longitude: longitude, latitude: latitude)
                                         
                                         
                                         
@@ -106,29 +133,7 @@ class EventSuccessViewController: UIViewController {
             
         } // end of background thread.
         
-        DispatchQueue.global().async {
-            
-            var imageName = NSUUID().uuidString
-            
-            let storageRef = FIRStorage.storage().reference().child("\(imageName).png")
-            
-            if let uploadData = UIImagePNGRepresentation(self.eventObject.image) {
-            
-                storageRef.put(uploadData, metadata: nil, completion: { (metadata, error) in
-            
-                    if error != nil {
-            
-                    }
-                    else {
-                        return
-                    }
-                            
-                            
-                            
-            })
-                        
-        }
-            
+        
             
             
         }

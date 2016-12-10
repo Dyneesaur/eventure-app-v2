@@ -21,7 +21,7 @@ class Event {
     let avatar_img: String!
     let chatChannel: Int!
     //    var icon_img: String
-    let eventImage: String! //Change this to array later
+    var eventImage: String! //Change this to array later
     let eventCategory: String!
     //    let host_id: String  // this will be firstbase uid
     let eventTitle: String!
@@ -36,6 +36,7 @@ class Event {
     
     // define an initializer for Event objects
     init(eventKey: String, snapshot: Dictionary<String, AnyObject>) {
+        
         self.event_id = eventKey
         self.dateCreated = snapshot["dateCreated"] as? String
         self.eventCategory = snapshot["category"] as? String
@@ -52,6 +53,11 @@ class Event {
         
         
     }
+    
+    func setEventImage(image: String) {
+        self.eventImage = image
+    }
+    
 }
 /****** define functions for the event class ******/
 /*

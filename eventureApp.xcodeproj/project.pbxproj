@@ -18,6 +18,24 @@
 		7656A3F41DEE44CB00054C7F /* EventSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7656A3F31DEE44CB00054C7F /* EventSignUpViewController.swift */; };
 		765A7F441DCA4F64000C27EE /* MapContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765A7F431DCA4F64000C27EE /* MapContainerViewController.swift */; };
 		765A7F471DCAC222000C27EE /* AddEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765A7F461DCAC222000C27EE /* AddEventViewController.swift */; };
+		766F35DD1DFAFD560067E23B /* UploadImageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766F35DC1DFAFD560067E23B /* UploadImageTableViewController.swift */; };
+		766F35DF1DFAFD850067E23B /* UploadImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766F35DE1DFAFD850067E23B /* UploadImageTableViewCell.swift */; };
+		766F35E11DFAFE400067E23B /* EventInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766F35E01DFAFE400067E23B /* EventInfoTableViewController.swift */; };
+		766F35E31DFAFE680067E23B /* TitleInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766F35E21DFAFE680067E23B /* TitleInfoTableViewCell.swift */; };
+		766F35E51DFAFF0E0067E23B /* DescriptionInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766F35E41DFAFF0E0067E23B /* DescriptionInfoTableViewCell.swift */; };
+		766F35E71DFAFF960067E23B /* EventDescInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766F35E61DFAFF960067E23B /* EventDescInfoTableViewController.swift */; };
+		766F35E91DFAFFC60067E23B /* DescriptonInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766F35E81DFAFFC60067E23B /* DescriptonInfoTableViewCell.swift */; };
+		766F35EB1DFB009F0067E23B /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766F35EA1DFB009F0067E23B /* CategoryTableViewController.swift */; };
+		766F35ED1DFB00BB0067E23B /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766F35EC1DFB00BB0067E23B /* CategoryTableViewCell.swift */; };
+		766F35EF1DFB01A10067E23B /* DateTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766F35EE1DFB01A10067E23B /* DateTableViewController.swift */; };
+		766F35F11DFB01B20067E23B /* DateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766F35F01DFB01B20067E23B /* DateTableViewCell.swift */; };
+		766F35F31DFB03090067E23B /* EventSuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766F35F21DFB03090067E23B /* EventSuccessViewController.swift */; };
+		766F35F51DFB16030067E23B /* A_blank_flag.png in Resources */ = {isa = PBXBuildFile; fileRef = 766F35F41DFB16030067E23B /* A_blank_flag.png */; };
+		766F35F71DFB405F0067E23B /* eventProfile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 766F35F61DFB405F0067E23B /* eventProfile.jpg */; };
+		766F35F91DFB409F0067E23B /* eventImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 766F35F81DFB409F0067E23B /* eventImage.png */; };
+		766F35FB1DFC8D6C0067E23B /* addEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766F35FA1DFC8D6C0067E23B /* addEvent.swift */; };
+		766F35FD1DFCA4410067E23B /* LocationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766F35FC1DFCA4410067E23B /* LocationTableViewCell.swift */; };
+		766F35FF1DFCA45B0067E23B /* LocationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766F35FE1DFCA45B0067E23B /* LocationTableViewController.swift */; };
 		76A083A01DBBF73B00DBC5A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A0839F1DBBF73B00DBC5A2 /* AppDelegate.swift */; };
 		76A083A21DBBF73B00DBC5A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A083A11DBBF73B00DBC5A2 /* ViewController.swift */; };
 		76A083A71DBBF73B00DBC5A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76A083A61DBBF73B00DBC5A2 /* Assets.xcassets */; };
@@ -58,6 +76,24 @@
 		7656A3F31DEE44CB00054C7F /* EventSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventSignUpViewController.swift; sourceTree = "<group>"; };
 		765A7F431DCA4F64000C27EE /* MapContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapContainerViewController.swift; sourceTree = "<group>"; };
 		765A7F461DCAC222000C27EE /* AddEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddEventViewController.swift; sourceTree = "<group>"; };
+		766F35DC1DFAFD560067E23B /* UploadImageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadImageTableViewController.swift; sourceTree = "<group>"; };
+		766F35DE1DFAFD850067E23B /* UploadImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadImageTableViewCell.swift; sourceTree = "<group>"; };
+		766F35E01DFAFE400067E23B /* EventInfoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventInfoTableViewController.swift; sourceTree = "<group>"; };
+		766F35E21DFAFE680067E23B /* TitleInfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleInfoTableViewCell.swift; sourceTree = "<group>"; };
+		766F35E41DFAFF0E0067E23B /* DescriptionInfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescriptionInfoTableViewCell.swift; sourceTree = "<group>"; };
+		766F35E61DFAFF960067E23B /* EventDescInfoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDescInfoTableViewController.swift; sourceTree = "<group>"; };
+		766F35E81DFAFFC60067E23B /* DescriptonInfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescriptonInfoTableViewCell.swift; sourceTree = "<group>"; };
+		766F35EA1DFB009F0067E23B /* CategoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
+		766F35EC1DFB00BB0067E23B /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
+		766F35EE1DFB01A10067E23B /* DateTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTableViewController.swift; sourceTree = "<group>"; };
+		766F35F01DFB01B20067E23B /* DateTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTableViewCell.swift; sourceTree = "<group>"; };
+		766F35F21DFB03090067E23B /* EventSuccessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventSuccessViewController.swift; sourceTree = "<group>"; };
+		766F35F41DFB16030067E23B /* A_blank_flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = A_blank_flag.png; sourceTree = "<group>"; };
+		766F35F61DFB405F0067E23B /* eventProfile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eventProfile.jpg; sourceTree = "<group>"; };
+		766F35F81DFB409F0067E23B /* eventImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eventImage.png; sourceTree = "<group>"; };
+		766F35FA1DFC8D6C0067E23B /* addEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addEvent.swift; sourceTree = "<group>"; };
+		766F35FC1DFCA4410067E23B /* LocationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationTableViewCell.swift; sourceTree = "<group>"; };
+		766F35FE1DFCA45B0067E23B /* LocationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationTableViewController.swift; sourceTree = "<group>"; };
 		76A0839C1DBBF73B00DBC5A2 /* eventureApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eventureApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76A0839F1DBBF73B00DBC5A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76A083A11DBBF73B00DBC5A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -155,7 +191,9 @@
 		761BA20E1DDCFCAC006311CC /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				766F35F81DFB409F0067E23B /* eventImage.png */,
 				A7D1F8FE1DEE607E000BAABD /* default_avatar.jpg */,
+				766F35F61DFB405F0067E23B /* eventProfile.jpg */,
 				A91C27B51DF9F6AD0032CDCD /* hostIcon.png */,
 				A91C27BF1DFA2E8B0032CDCD /* jazzNight.png */,
 				A91C27B61DF9F6AD0032CDCD /* locationIconPin.png */,
@@ -181,6 +219,13 @@
 				A953ECBD1DCA6CAF0043D652 /* SearchViewController.swift */,
 				7656A3F31DEE44CB00054C7F /* EventSignUpViewController.swift */,
 				A7D1F8FC1DEE5F53000BAABD /* EditProfileViewController.swift */,
+				766F35DC1DFAFD560067E23B /* UploadImageTableViewController.swift */,
+				766F35E01DFAFE400067E23B /* EventInfoTableViewController.swift */,
+				766F35E61DFAFF960067E23B /* EventDescInfoTableViewController.swift */,
+				766F35EA1DFB009F0067E23B /* CategoryTableViewController.swift */,
+				766F35EE1DFB01A10067E23B /* DateTableViewController.swift */,
+				766F35F21DFB03090067E23B /* EventSuccessViewController.swift */,
+				766F35FE1DFCA45B0067E23B /* LocationTableViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -189,6 +234,13 @@
 			isa = PBXGroup;
 			children = (
 				A938EE591DDBF334006A51F5 /* SearchCell.swift */,
+				766F35DE1DFAFD850067E23B /* UploadImageTableViewCell.swift */,
+				766F35E21DFAFE680067E23B /* TitleInfoTableViewCell.swift */,
+				766F35E41DFAFF0E0067E23B /* DescriptionInfoTableViewCell.swift */,
+				766F35E81DFAFFC60067E23B /* DescriptonInfoTableViewCell.swift */,
+				766F35EC1DFB00BB0067E23B /* CategoryTableViewCell.swift */,
+				766F35F01DFB01B20067E23B /* DateTableViewCell.swift */,
+				766F35FC1DFCA4410067E23B /* LocationTableViewCell.swift */,
 			);
 			name = "Table Cells";
 			sourceTree = "<group>";
@@ -258,6 +310,7 @@
 				76A083B81DBBF9E200DBC5A2 /* User.swift */,
 				76A083BA1DBBF9E700DBC5A2 /* Chatroom.swift */,
 				76A083BC1DBBF9ED00DBC5A2 /* Message.swift */,
+				766F35FA1DFC8D6C0067E23B /* addEvent.swift */,
 			);
 			name = "Data Classes";
 			sourceTree = "<group>";
@@ -265,6 +318,7 @@
 		76A083BE1DBBFA0400DBC5A2 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				766F35F41DFB16030067E23B /* A_blank_flag.png */,
 				76C310641DF0DC7A007EC7DE /* E.png */,
 				76A083BF1DBBFA0B00DBC5A2 /* river.jpeg */,
 			);
@@ -353,10 +407,13 @@
 				A93C71DB1DF0AE2700187BF8 /* Main.storyboard in Resources */,
 				A91C27BA1DF9F6AD0032CDCD /* locationIcon.png in Resources */,
 				76A083AA1DBBF73B00DBC5A2 /* LaunchScreen.storyboard in Resources */,
+				766F35F91DFB409F0067E23B /* eventImage.png in Resources */,
 				76A083A71DBBF73B00DBC5A2 /* Assets.xcassets in Resources */,
 				A91C27BC1DFA11C30032CDCD /* categoryIcon.png in Resources */,
+				766F35F51DFB16030067E23B /* A_blank_flag.png in Resources */,
 				7620C0F21DD66D8400D594E9 /* food.png in Resources */,
 				76A083C01DBBFA0B00DBC5A2 /* river.jpeg in Resources */,
+				766F35F71DFB405F0067E23B /* eventProfile.jpg in Resources */,
 				A91C27C01DFA2E8B0032CDCD /* jazzNight.png in Resources */,
 				A7D1F8FF1DEE607E000BAABD /* default_avatar.jpg in Resources */,
 				7620C0F01DD66D7000D594E9 /* business.png in Resources */,
@@ -423,20 +480,35 @@
 			buildActionMask = 2147483647;
 			files = (
 				76A083B91DBBF9E200DBC5A2 /* User.swift in Sources */,
+				766F35E91DFAFFC60067E23B /* DescriptonInfoTableViewCell.swift in Sources */,
+				766F35DD1DFAFD560067E23B /* UploadImageTableViewController.swift in Sources */,
 				3C9F39E21DDC21E000804A55 /* Channel.swift in Sources */,
 				765A7F471DCAC222000C27EE /* AddEventViewController.swift in Sources */,
+				766F35FB1DFC8D6C0067E23B /* addEvent.swift in Sources */,
 				76A083BB1DBBF9E700DBC5A2 /* Chatroom.swift in Sources */,
 				A938EE5A1DDBF334006A51F5 /* SearchCell.swift in Sources */,
+				766F35EF1DFB01A10067E23B /* DateTableViewController.swift in Sources */,
+				766F35EB1DFB009F0067E23B /* CategoryTableViewController.swift in Sources */,
 				76A083A21DBBF73B00DBC5A2 /* ViewController.swift in Sources */,
+				766F35F31DFB03090067E23B /* EventSuccessViewController.swift in Sources */,
 				A938EE5C1DDBF46A006A51F5 /* EventsProfileViewController.swift in Sources */,
+				766F35FF1DFCA45B0067E23B /* LocationTableViewController.swift in Sources */,
 				7646BFBA1DC0570000CB7CF8 /* MapViewController.swift in Sources */,
+				766F35FD1DFCA4410067E23B /* LocationTableViewCell.swift in Sources */,
 				A7D1F8FD1DEE5F53000BAABD /* EditProfileViewController.swift in Sources */,
 				765A7F441DCA4F64000C27EE /* MapContainerViewController.swift in Sources */,
+				766F35E71DFAFF960067E23B /* EventDescInfoTableViewController.swift in Sources */,
+				766F35F11DFB01B20067E23B /* DateTableViewCell.swift in Sources */,
 				76A083BD1DBBF9ED00DBC5A2 /* Message.swift in Sources */,
 				7656A3F41DEE44CB00054C7F /* EventSignUpViewController.swift in Sources */,
+				766F35E51DFAFF0E0067E23B /* DescriptionInfoTableViewCell.swift in Sources */,
+				766F35ED1DFB00BB0067E23B /* CategoryTableViewCell.swift in Sources */,
+				766F35E11DFAFE400067E23B /* EventInfoTableViewController.swift in Sources */,
 				3C9F39E41DDC255000804A55 /* ChannelListViewController.swift in Sources */,
 				A953ECBE1DCA6CAF0043D652 /* SearchViewController.swift in Sources */,
+				766F35E31DFAFE680067E23B /* TitleInfoTableViewCell.swift in Sources */,
 				76AA56C61DBC2B4A00EE90FF /* DBViewController.swift in Sources */,
+				766F35DF1DFAFD850067E23B /* UploadImageTableViewCell.swift in Sources */,
 				3C9F39DB1DDC20DA00804A55 /* CreateChannelCell.swift in Sources */,
 				76A083B71DBBF9DC00DBC5A2 /* Event.swift in Sources */,
 				76A083C21DBC013700DBC5A2 /* LoggedInViewController.swift in Sources */,

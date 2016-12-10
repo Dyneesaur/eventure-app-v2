@@ -83,7 +83,7 @@ class AddEventViewController: UIViewController {
                                             
                                             // add the event to the database.
                                             db.addEventTreeStructure(eventRoot: "Events",attendees: [], title:
-                                                self.titleText.text!, description: self.descriptionText.text!, avatar: "",Category: self.category.text!, chatChannel: 0, images: [], startDate: self.startDate.text!, endDate: self.endDate.text!, longitude: longitude, latitude: latitude)
+                                                self.titleText.text!, description: self.descriptionText.text!, avatar: "",Category: self.category.text!, chatChannel: 0, images: [], startDate: self.startDate.text!, longitude: longitude, latitude: latitude)
                                             
                                             
                                             // reset the textfield's text back to blank.

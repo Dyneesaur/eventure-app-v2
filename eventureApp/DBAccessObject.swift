@@ -32,7 +32,7 @@ class DBAccessObject {
     }
     
     // adds an event to the db
-    func addEventTreeStructure(eventRoot: String, attendees: NSMutableArray, title: String, description: String, avatar: String, Category: String, chatChannel: Int, images: NSMutableArray, startDate: String, endDate: String, longitude: Double, latitude: Double) {
+    func addEventTreeStructure(eventRoot: String, attendees: NSMutableArray, title: String, description: String, avatar: String, Category: String, chatChannel: Int, images: NSMutableArray, startDate: String, longitude: Double, latitude: Double) {
         
        
         
@@ -49,7 +49,6 @@ class DBAccessObject {
         eventKey.child("chatChannel").setValue(chatChannel)
         eventKey.child("images").setValue(images)
         eventKey.child("startDate").setValue(startDate)
-        eventKey.child("endDate").setValue(endDate)
         eventKey.child("longitude").setValue(longitude)
         eventKey.child("latitude").setValue(latitude)
         
